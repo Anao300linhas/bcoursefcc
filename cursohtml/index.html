@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Curso de HTML básico - FreeCodeCamp</h1>
+    </header>
+    <main>
+        
+ <section> 
+     
+    <h2>Tags básicas</h2>
+     
+<dl>
+    
+    <dt>&lt;h&gt;</dt>
+        <dd>A tag &lt;h(1-6)&gt; é utilizada para definir um título na sua página. Ela possui uma hierarquia de 1 a 6. Exemplo:</dd>
+    <h3>Exemplo de uso da tag >&lt;h&gt;</h3>
+    
+    <dt>&lt;p&gt;</dt>
+        <dd>A tag &lt;p&gt; é utilizada para definir um parágrafo na sua página. Exemplo:</dd>
+    <p>Exemplo de uso da tag &lt;p&gt;</p>
+    
+    <dt>&lt;b&gt;</dt>
+        <dd>A tag &lt;b&gt; é utilizada para colocar um texto em negrito. Exemplo: <b>Termo em negrito</b></dd>
+    
+    <dt>&lt;i&gt;</dt>
+        <dd>A tag &lt;i&gt; é utilizada para colocar um texto em itálico. Exemplo: <i>Termo em itálico.</i></dd>
+    
+    <dt>&lt;sup&gt;</dt>
+    <dd>A tag &lt;sup&gt; é utilizada para colocar um texto para cima. Sendo muito utilizada na matemática. Exemplo: 10<sup>2</sup></dd>
+    
+    <dt>&lt;sub&gt;</dt>
+    <dd>A tag &lt;sub&gt; é utilizada para colocar um texto para baixo. Exemplo: H<sub>2</sub>O.</dd>
+    
+    <dt>&lt;u&gt;</dt>
+    <dd>A tag &lt;u&gt; é utilizada para colocar um texto em sublinhado. Exemplo: <u>Termo com a tag &lt;u&gt;</u></dd>
+    
+    <dt>&lt;big&gt;</dt>
+        <dd>A tag &lt;big&gt; é utilizada para deixar um texto grande. Exemplo: <big>Termo com a tag &lt;big&gt;</big></dd>
+    
+    <dt>&lt;small&gt;</dt>
+        <dd>A tag &lt;small&gt; é utilizada para deixar um texto pequeno. Exemplo: <small>Termo com a tag &lt;small&gt;</small></dd>
+    
+    <dt>&lt;strong&gt;</dt>
+        <dd>A tag &lt;strong&gt; é utilizada para deixar um texto em destaque, semelhante ao negrito da tag &lt;b&gt;, mas a tag &lt;strong&gt; possui semântica. Exemplo: <strong>Termo com a tag &lt;strong&gt;</strong></dd>
+    
+    <dt>&lt;em&gt;</dt>
+        <dd>A tag &lt;em&gt; é utilizada para deixar um texto em ênfase, semelhante ao itálico da tag &lt;i&gt;, mas a tag &lt;em&gt; possui semântica. <em>Exemplo: Termo com a tag &lt;em&gt;</em></dd>
+    
+    <dt>&lt;q&gt;</dt>
+        <dd>A tag &lt;q&gt; é utilizada para indicar uma citação simples. Exemplo: <q>O motivo da guerra é a paz.</q>- Sun Tzu.</dd>
+    
+    <dt>&lt;blockquote&gt;</dt>
+        <dd>A tag &lt;blockquote&gt; é usada para fazer uma citação completa. Exemplo:</dd>
+    <blockquote cite="https://books.google.com.br/books?id=qR8O9uW55Z0C&printsec=frontcover&dq=sun+tzu+a+arte+da+guerra&hl=pt-BR&sa=X&ved=2ahUKEwjI4vGdyczuAhXAH7kGHem6DbwQ6AEwAXoECAcQAg#v=onepage&q=sun%20tzu%20a%20arte%20da%20guerra&f=false">
+    Por vezes, nem sempre o confronto direto será a solução mais inteligente a ser tomada. É preciso encontrar outras formas de lidar com um problema sem que isso seja a força bruta. Use sua mente, explore possibilidades e aprenda a sair por cima de forma digna e criativa.
+    </blockquote>
+    
+    <dt>&lt;ins&gt;</dt>
+        <dd>A tag &lt;ins&gt; é utilizada para indicar que um texto foi inserido, ela é semelhante a tag &lt;u&gt;, mas a tag &lt;ins&gt; possui semântica. Exemplo: <ins>Termo com a tag &lt;ins&gt;</ins></dd>
+    
+    <dt>&lt;del&gt;</dt>
+        <dd>A tag &lt;del&gt; é utilizada para indicar que um texto foi deletado, mas deve ser lido. Exemplo: <del>Termo com a tag &lt;del&gt;</del></dd>
+    
+    <dt>&lt;abbr&gt;</dt>
+        <dd>A tag &lt;abbr&gt; é geralmente utilizada em abreviações, ela diz o significado ao passar o mouse por cima. Exemplo: <abbr title="HyperText Markup Language">HTML</abbr></dd>
+    
+    <dt>&lt;mark&gt;</dt>
+        <dd>A tag &lt;mark&gt; adiciona uma marcação ao texto, semelhante ao uso de um marca-texto. Exemplo: <mark>Termo com a tag >&lt;mark&gt;</mark></dd>          
+</dl>
+     
+</section>  
+        
+<section> 
+    
+    <h2>Comentários</h2>
+    
+        <p>Você pode inserir comentários nos seus códigos, eles são invisíveis e não apareceram no navegador. Geralmente são utilizados para fazer anotações sobre o próprio código, para assim serem lidos por si ou por outro desenvolvedor. Para colocá-los, você usa a tag &lt;!----&gt; 
+            <!--Exemplo-->
+</section>
+
+<section>
+    
+    <h2>Style e color</h2>
+    
+        <p>Você também pode inserir estilos no seu código, usando CSS.</p>
+            <h3>Tag style</h3>
+                <p>Existem alguns atributos que você pode colocar na tag style, alguns deles são: color, background-color, font-family, font-size, text-allign.</p>
+        
+            <h3>Como usar CSS no seu código?</h3>
+                <p>Existem 3 formas de adicionar CSS, elas são: inline, interna e externa.</p>
+                 <h4>Inline</h4>
+                     <p>Você usa CSS no próprio código que você quer estilizar. Existem muitas desvantagens nessa forma, sendo recomendada a ser usada quando é estritamente necessária, é preferível utilizar a forma interna e externa. Exemplo:</p>
+                     <p style="color: blue;">CSS inline</p>
+                  <h4>Interno</h4>
+                     <p>Você coloca o código CSS no head do seu código HTML. Essa forma é recomendada quando o código CSS se aplica a apenas uma página, não sendo recomendada quando passa a ser duas ou mais, pois dificulta mudanças no código CSS do site.</p> 
+                 <h4>Externo</h4>
+                     <p>Você adiciona o código CSS por meio de um código no head do seu código HTML. O código utilizado é &lt;link rel="stylesheet" href="nomedoarquivo.css"&gt;. Essa forma é recomendada quando o site é composto por mais de uma página, favorecendo futuras mudanças no código do site e uma melhor organização.
+</section>
+                
+ <section>  
+     
+    <h2>Links</h2>
+        <h3>Links externos</h3>
+            <p>Você pode adicionar links externos ao seu código HTML por meio da tag &lt;a&gt;. Exemplo com um link externo: <a href="https://google.com" target="_blank" rel="next">Google</a></p>
+        <h3>Links internos</h3>
+            <p>Você pode adicionar links internos ao seu código HTML por meio da mesma tag, mas linkando a um arquivo do seu mesmo servidor. Exemplo com um link interno: <a href="index.html" target="_self">Curso de HTML</a></p>
+                                  
+</section>       
+        
+ <section>
+     
+    <h2>Colocando imagens</h2>
+        <p>Você pode adicionar imagens ao seu site por meio da tag &lt;img&gt;</p>
+            <h3>Imagens externas</h3>
+                <p>Você pode adicionar imagens externas ao seu site por meio da tag img linkando para uma imagem externa. Exemplo de uso:</p>
+                <img src="https://cdn.vox-cdn.com/thumbor/X-xVN1krqbh9Co35_AXiZRHRAUk=/0x26:640x453/1200x800/filters:focal(0x26:640x453)/cdn.vox-cdn.com/assets/1275052/kitten_field_jump.jpeg" alt="Gatinho fofo pulando" width="300px">
+            <h3>Imagens internas</h3>
+                <p>Você pode adicionar imagens do seu próprio computador para o site. Exemplo:</p>
+                <img src="media/gato.jpg" alt="gato fofo paradinho" width="300px">
+            <h3>Imagens clicáveis</h3>
+                <p>Também é possível fazer uma imagem clicável.</p>
+                <a href="media/gatopulando.jpeg" target="_self"><img src="media/gatopulando.jpeg" alt="gato fofo paradinho" width="300px"></a>
+</section>
+        
+<section>  
+    
+    <h2>Colocando vídeos</h2>
+        <p>Você pode colocar vídeos no seu site por meio da tag &lt;video&gt;</p>
+            <h3>Vídeos internos</h3>
+                <p>É possível colocar vídeos internos no site. Exemplo:</p>
+                <video src="media/teste.webm" controls width="560" poster="media/homemrespeitado.jpg"></video>
+            <h3>Vídeos externos</h3>
+                 <p>Também é possível adicionar vídeos externos, principalmente por meio da incorporação. Exemplo:</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/TB4y0AcsSO0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+</section>
+
+<section>
+    
+    <h2>Listas</h2>
+        <p>É possível adicionar listas ao seu site, existem 3 tipos de lista: ordenada, não ordenada, definição.</p>
+            <h3>Listas ordenadas</h3>
+                <p>Listas não ordenadas, assim como o nome diz, elas não possuem uma ordem. Para colocá-las utilize a tag &lt;ul&gt;. Exemplo de lista não ordenada:</p>
+    
+    <ul>    
+        <caption>Receita de bolo - Ingredientes</caption>
+    
+            <li>5 ovos</li>
+            <li>2 xícaras de açúcar</li>
+            <li>2 xícaras de farinha de trigo</li>
+            <li>1 xícara de leite quente</li>
+            <li>1 colher de fermento em pó</li>
+    </ul>
+    
+                <h4>Atributos</h4>
+                    <p>Existem alguns atributos que podem ser atribuidos às listas não ordenadas, eles são: type="disc, square, circle".</p>
+    
+            <h3>Listas ordenadas</h3>
+                 <p>Como o nome diz, são listas que possuem uma ordem. Para colocá-las utilize a tag &lt;ol&gt;. Exemplo de lsita ordenada:</p>
+    
+    <ol>    
+        <caption>Receita de bolo - Preparo</caption>
+    
+            <li>Bata na batedeira as claras em neve, adicione as gemas uma a uma e continue batendo, junte o açúcar e bata mais um pouco.</li>
+            <li>Junte a farinha peneirada e o leite bem quente e mexa bem, sem bater, por último coloque o fermento.</li>
+            <li>Leve para assar em forma redonda sem buraco no meio, untada e enfarinhada em forno pré-aquecido em temperatura média por no máximo 30 minutos ou quando tiver dourado e bem sequinho.</li>
+            <li>Cresce bastante e fica bem fofinho.</li>
+    </ol>
+    
+                <h4>Atributos</h4>
+                    <p>Existem alguns atributos que podem ser atribuidos às listas ordenadas, eles são:  type="A, a, I, i, 1".</p>
+    
+            <h3>Listas de definição</h3>
+                <p>Listas de definição são listas que servem para listar, organizar e definir termos. Para colocá-las use a tag &lt;dl&gt;<p>
+    
+    <dl>
+        <dt>HTML</dt>
+            <dd>HyperText Markup Language, usado para o conteúdo de um site.<dd>
+        
+        <dt>CSS</dt>
+            <dd>Cascading Style Sheets, usado para o estilo de um site.<dd>
+        
+        <dt>JavaScript</dt>
+            <dd>Usado para a interatividade de um site.<dd>
+    </dl>    
+        
+</section>   
+        
+<section>   
+    
+    <h2>Tables</h2>
+        <p>É uma forma de formatar informações para os usuários, parecido com o que acontece no Excel. Para colocá-los use a tag &lt;table&gt;. Exemplo:</p>
+    
+    <table>
+        
+        <thead>
+            <caption><h3>Jogo de 02/02/2020</h3></caption>
+            <tr>
+                <th>Time 1</th>
+                <th>Time 2</th>
+                <th>Time 3</th>
+                <th>Time 4</th>
+                <th>Time 5</th>
+        </thead>
+        
+        <tbody>
+            <tr>
+            <td>30</td>
+            <td>40</td>
+            <td>50</td>
+            <td>70</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>30</td>
+            <td>40</td>
+            <td>50</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>40</td>
+            <td>50</td>
+            <td>60</td>
+            <td>70</td>
+            <td>80</td>
+        </tr>
+        </tbody>
+        
+    </table>
+        
+        <h3>Atributos</h3>
+            <p>Um atributo que pode ser usado para uma coluna ocupar mais espaço, esse atributo é colspan=""</p>
+        
+</section> 
+
+<section>
+    
+    <h2>Divs e Spans</h2>
+        <h3>Inlines e blocks</h3>
+            <p>Antes de falar sobre Divs e Spans, é importante entender o conceito de um elemento inline e um elemento block. O HTML tem duas formas principais de mostrar um elemento no navegador, elas são inline e blocks.</p>
+    
+            <h4>Block</h4>
+                <p>Um elemento block, assim como o nome diz, ocupa um bloco na página, pegando todo o espaço da tela em que ele está inserido, elementos blocks não podem ficar um ao lado do outro. Exemplo de elemento block:</p>
+                <p>Block1</p>
+                <p>Block2</p>
+    
+                <p>Como você pode observar, eles não conseguem ocupar a mesma linha, pois eles ocupam um bloco na tela.</p>
+    
+            <h4>Inline</h4>
+                <p>Um elemento inline não ocupa todo o espaço da página em que ele está inserido, podendo ficar um ao lado do outro. Exemplo de elemento inline:</p>
+                <a href="#">Inline1</a>
+                <a href="#">Inline2</a>
+
+                <p>Como você pode observar, eles conseguem ocupar a mesma linha, desde que haja espaço.</p>
+                <p>Agora que você entendeu o conceito de inline e blocks, podemos entender Spans e Divs</p>
+    
+        <h3>Spans</h3>
+            <p>Spans são elementos inline, eles são usados como contêiner para outros códigos HTML. Para colocá-los use a tag &lt;span&gt;. Exemplo:</p>
+    
+            <span>Span1</span>
+            <span>Span2</span>
+    
+        <h3>Divs</h3>
+            <p>Divs são elementos block, eles também são usados como contêiner para outros códigos HTML. Para colocá-los use a tag &lt;div&gt;. Exemplo:</p>
+    
+            <div>Div1</div>
+            <div>Div2</div>
+        
+</section>
+        
+<section>    
+    
+    <h2>Input e Forms</h2>
+    
+    <h3>Input</h3>
+    
+        <p>Tags input permitem que você coloque espaços no site onde usuários podem colocar informações. Para colocá-los use a tag &lt;input&gt;. Exemplo:</p> 
+    
+        <input type="text" value="Coloque o seu nome">
+    
+        <textarea rows="5" cols="15">Escreva aqui</textarea>
+    
+            <h4>Atributos</h4>
+                <p>Existem alguns atributos que você pode adicionar, alguns deles são: type="date, file, range, radio, checkbox, submit.</p>
+    
+        <h3>Form</h3>
+    
+            <p>A tag &lt;form&gt; é usada para armazenar todos as tags &lt;input&gt;</p> 
+       
+</section>
+
+<section>
+    
+    <h2>Iframes</h2>
+        <p>Iframes são elementos que permitem que você coloque outro site no seu próprio site. Para colocá-los use a tag &lt;iframe&gt;. Exemplo:</p>
+        <iframe src="https://1500chan.org/b/index.html"frameborder="0" width="1000" height="800"></iframe>
+           <h3>Atributos</h3>
+               <p>Existem alguns atributos que você pode adicionar, alguns deles são: frameborder, width, height."</p>
+</section>
+        
+<section>      
+    
+    <h2>Metatags</h2>
+        <p>Metatags são colocadas no head do seu código</p>
+    
+    <dl>
+        <dt>&lt;meta name="description" content="Escreva aqui"&gt;</dt>
+            <dd>Essa tag coloca uma descrição no seu site.</dd>
+        
+        <dt>&lt;meta name="author" content="Escreva aqui"&gt;</dt>
+            <dd>Essa tag define o autor do site</dd>      
+    </dl>
+    
+</section>
+        
+</main>
+    
+<footer>
+</footer>
+    
+</body>
+</html>
